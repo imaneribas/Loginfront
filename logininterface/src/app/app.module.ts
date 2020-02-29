@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { UserService } from './shared/user.service';
 import { AuthInterceptor } from './auth/auth.interceptor';
+import { AdduserComponent } from './adduser/adduser.component';
+
 
  
 @NgModule({
@@ -19,7 +21,9 @@ import { AuthInterceptor } from './auth/auth.interceptor';
     UserComponent,
     RegistrationComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    AdduserComponent,
+  
   ],
   imports: [
     BrowserModule,
